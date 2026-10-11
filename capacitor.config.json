@@ -1,0 +1,15 @@
+{
+  "appId": "com.gymbeam.app",
+  "appName": "GymBeam",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_config_sample",
+      "iconColor": "#a3e635"
+    }
+  }
+}

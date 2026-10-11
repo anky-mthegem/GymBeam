@@ -1,0 +1,5640 @@
+[
+  {
+    "id": "barbell_bench_press",
+    "name": "Barbell Bench Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Lie flat on the bench with eyes positioned beneath the barbell.",
+      "Grip the bar slightly wider than shoulder width and retract shoulder blades.",
+      "Unrack the bar, lower with control to the mid-sternum.",
+      "Drive feet into the floor and press upward powerfully until arms lock out."
+    ],
+    "substitutes": [
+      "dumbbell_bench_press",
+      "machine_chest_press",
+      "weighted_chest_dips",
+      "smith_bench_press"
+    ]
+  },
+  {
+    "id": "incline_barbell_bench_press",
+    "name": "Incline Barbell Bench Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set bench to 30-degree incline.",
+      "Grip bar with hands wider than shoulder-width.",
+      "Lower bar under control to upper chest/clavicle line.",
+      "Press vertically to complete extension."
+    ],
+    "substitutes": [
+      "incline_dumbbell_press",
+      "incline_machine_press",
+      "incline_smith_press"
+    ]
+  },
+  {
+    "id": "decline_barbell_bench_press",
+    "name": "Decline Barbell Bench Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Secure legs in decline bench rollers.",
+      "Lower bar steadily toward the lower chest.",
+      "Press upward through full range of motion."
+    ],
+    "substitutes": [
+      "decline_dumbbell_press",
+      "weighted_chest_dips"
+    ]
+  },
+  {
+    "id": "dumbbell_bench_press",
+    "name": "Dumbbell Flat Bench Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Kick dumbbells back onto bench and stabilize over mid-chest.",
+      "Descend with elbows flared 45 degrees until deep chest stretch is felt.",
+      "Press together in slight arc without banging weights."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "machine_chest_press",
+      "floor_press_dumbbell"
+    ]
+  },
+  {
+    "id": "incline_dumbbell_press",
+    "name": "Incline Dumbbell Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set bench to 30 or 45-degree angle.",
+      "Lower dumbbells until hands are level with clavicles.",
+      "Press smoothly overhead concentrating on upper clavicular fibers."
+    ],
+    "substitutes": [
+      "incline_barbell_bench_press",
+      "incline_machine_press"
+    ]
+  },
+  {
+    "id": "decline_dumbbell_press",
+    "name": "Decline Dumbbell Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Hold dumbbells on decline bench.",
+      "Lower towards lower pectorals, feeling deep contraction.",
+      "Press back up maintaining packed shoulders."
+    ],
+    "substitutes": [
+      "decline_barbell_bench_press",
+      "chest_dips"
+    ]
+  },
+  {
+    "id": "machine_chest_press",
+    "name": "Machine Chest Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Adjust seat height until handles align with middle chest.",
+      "Plant feet firmly, squeeze scaps into back pad.",
+      "Drive handles forward to near full lockout."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "dumbbell_bench_press",
+      "smith_bench_press"
+    ]
+  },
+  {
+    "id": "incline_machine_press",
+    "name": "Incline Machine Chest Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set seat so handles sit at upper pectoral line.",
+      "Press upward through fixed arc."
+    ],
+    "substitutes": [
+      "incline_dumbbell_press",
+      "incline_barbell_bench_press"
+    ]
+  },
+  {
+    "id": "pec_deck_fly",
+    "name": "Pec Deck Machine Fly",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position handles so elbows have soft bend at chest level.",
+      "Squeeze arms together across midline with peak contraction.",
+      "Control eccentric opening until chest stretches."
+    ],
+    "substitutes": [
+      "cable_chest_fly_middle",
+      "dumbbell_chest_fly"
+    ]
+  },
+  {
+    "id": "cable_chest_fly_middle",
+    "name": "Standing Cable Crossover",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Set pulleys at shoulder level, take one pace forward.",
+      "Bring hands together in wide hugging motion.",
+      "Hold 1-second peak squeeze."
+    ],
+    "substitutes": [
+      "pec_deck_fly",
+      "dumbbell_chest_fly"
+    ]
+  },
+  {
+    "id": "cable_fly_high_to_low",
+    "name": "High-to-Low Cable Fly",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Pulleys at highest notch. Drive downwards toward hips.",
+      "Focus on sternal and lower pectoral head squeeze."
+    ],
+    "substitutes": [
+      "pec_deck_fly",
+      "weighted_chest_dips"
+    ]
+  },
+  {
+    "id": "cable_fly_low_to_high",
+    "name": "Low-to-High Cable Fly",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Set pulleys to lowest notch. Scoop hands upward and forward.",
+      "Squeeze upper clavicular chest fibers at eye height."
+    ],
+    "substitutes": [
+      "incline_dumbbell_fly",
+      "incline_dumbbell_press"
+    ]
+  },
+  {
+    "id": "dumbbell_chest_fly",
+    "name": "Flat Dumbbell Fly",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Maintain slight elbow bend throughout movement.",
+      "Lower dumbbells in wide arc until deep chest stretch is reached.",
+      "Contract pectorals to return to starting position."
+    ],
+    "substitutes": [
+      "pec_deck_fly",
+      "cable_chest_fly_middle"
+    ]
+  },
+  {
+    "id": "incline_dumbbell_fly",
+    "name": "Incline Dumbbell Fly",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Set incline to 30 degrees.",
+      "Lower dumbbells laterally with curved arms.",
+      "Bring together over upper chest."
+    ],
+    "substitutes": [
+      "cable_fly_low_to_high",
+      "pec_deck_fly"
+    ]
+  },
+  {
+    "id": "weighted_chest_dips",
+    "name": "Weighted Chest Dips",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Lean forward 30 degrees with flared elbows.",
+      "Lower body until upper arms are parallel with bars.",
+      "Press up explosively through palms."
+    ],
+    "substitutes": [
+      "decline_barbell_bench_press",
+      "barbell_bench_press"
+    ]
+  },
+  {
+    "id": "push_ups_bodyweight",
+    "name": "Standard Push-Ups",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps",
+      "abs"
+    ],
+    "equipment": "bodyweight",
+    "category": "endurance",
+    "tier": "compound",
+    "instructions": [
+      "Keep body in rigid plank.",
+      "Lower until chest hovers 1 inch above floor.",
+      "Push floor away."
+    ],
+    "substitutes": [
+      "machine_chest_press",
+      "barbell_bench_press"
+    ]
+  },
+  {
+    "id": "diamond_push_ups",
+    "name": "Diamond Push-Ups",
+    "bodyPart": "chest",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest",
+      "shoulders"
+    ],
+    "equipment": "bodyweight",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Place index fingers and thumbs together under sternum.",
+      "Lower chest onto triangle and press."
+    ],
+    "substitutes": [
+      "close_grip_bench_press",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "floor_press_barbell",
+    "name": "Barbell Floor Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Lie flat on gym floor with knees bent.",
+      "Lower bar until triceps touch floor softly, pause, and press."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "close_grip_bench_press"
+    ]
+  },
+  {
+    "id": "smith_bench_press",
+    "name": "Smith Machine Bench Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "smith_machine",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Align bench directly under Smith bar.",
+      "Lower to chest with steady tempo and drive to top."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "machine_chest_press"
+    ]
+  },
+  {
+    "id": "smith_incline_press",
+    "name": "Smith Machine Incline Press",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "smith_machine",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Incline bench at 30 degrees inside Smith rack.",
+      "Lower bar smoothly to clavicles and press."
+    ],
+    "substitutes": [
+      "incline_barbell_bench_press",
+      "incline_dumbbell_press"
+    ]
+  },
+  {
+    "id": "barbell_deadlift",
+    "name": "Conventional Barbell Deadlift",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Conventional Barbell Deadlift.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row",
+      "t_bar_row"
+    ]
+  },
+  {
+    "id": "sumo_deadlift",
+    "name": "Sumo Barbell Deadlift",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "quadriceps",
+      "glutes",
+      "lower_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Sumo Barbell Deadlift.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row",
+      "t_bar_row"
+    ]
+  },
+  {
+    "id": "barbell_bent_over_row",
+    "name": "Barbell Bent-Over Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Bent-Over Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "pendlay_row",
+      "t_bar_row"
+    ]
+  },
+  {
+    "id": "pendlay_row",
+    "name": "Pendlay Barbell Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back",
+      "biceps"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Pendlay Barbell Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "t_bar_row"
+    ]
+  },
+  {
+    "id": "t_bar_row",
+    "name": "T-Bar Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for T-Bar Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "dumbbell_single_arm_row",
+    "name": "Single-Arm Dumbbell Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Single-Arm Dumbbell Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "chest_supported_db_row",
+    "name": "Chest-Supported Dumbbell Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back",
+      "biceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Chest-Supported Dumbbell Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "lat_pulldown_wide",
+    "name": "Wide-Grip Lat Pulldown",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Wide-Grip Lat Pulldown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "lat_pulldown_close_neutral",
+    "name": "Close-Grip Neutral Lat Pulldown",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Close-Grip Neutral Lat Pulldown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "pull_ups_bodyweight",
+    "name": "Standard Pull-Ups",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "abs"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standard Pull-Ups.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "chin_ups_bodyweight",
+    "name": "Chin-Ups (Underhand)",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Chin-Ups (Underhand).",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "neutral_grip_pull_ups",
+    "name": "Neutral-Grip Pull-Ups",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Neutral-Grip Pull-Ups.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "seated_cable_row",
+    "name": "Seated Cable Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Cable Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "meadows_row",
+    "name": "Meadows Landmine Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Meadows Landmine Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "straight_arm_cable_pulldown",
+    "name": "Straight-Arm Cable Pulldown",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Straight-Arm Cable Pulldown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "machine_lat_pulldown",
+    "name": "Plate-Loaded Lat Pulldown",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Plate-Loaded Lat Pulldown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "machine_seated_row",
+    "name": "Machine Seated Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Machine Seated Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "face_pull_cable",
+    "name": "Cable Face Pull",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "shoulders",
+      "upper_back"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Face Pull.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "barbell_shrug",
+    "name": "Barbell Shrug",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Shrug.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "dumbbell_shrug",
+    "name": "Dumbbell Shrug",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Shrug.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "smith_machine_shrug",
+    "name": "Smith Machine Shrug",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "smith_machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Smith Machine Shrug.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "hyperextensions_back",
+    "name": "Back Hyperextensions",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Back Hyperextensions.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "good_mornings_barbell",
+    "name": "Barbell Good Mornings",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Good Mornings.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "rack_pulls_barbell",
+    "name": "Barbell Rack Pulls",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "upper_back",
+      "glutes"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Rack Pulls.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "inverted_row_bodyweight",
+    "name": "Inverted Bodyweight Row",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Inverted Bodyweight Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "barbell_overhead_press",
+    "name": "Standing Barbell Overhead Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps",
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Barbell Overhead Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell",
+      "dumbbell_lateral_raise"
+    ]
+  },
+  {
+    "id": "seated_barbell_press",
+    "name": "Seated Barbell Overhead Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Barbell Overhead Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell",
+      "dumbbell_lateral_raise"
+    ]
+  },
+  {
+    "id": "seated_dumbbell_shoulder_press",
+    "name": "Seated Dumbbell Shoulder Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Dumbbell Shoulder Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "arnold_press_dumbbell",
+      "dumbbell_lateral_raise"
+    ]
+  },
+  {
+    "id": "arnold_press_dumbbell",
+    "name": "Dumbbell Arnold Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Arnold Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "dumbbell_lateral_raise"
+    ]
+  },
+  {
+    "id": "dumbbell_lateral_raise",
+    "name": "Standing Dumbbell Lateral Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Dumbbell Lateral Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "cable_lateral_raise",
+    "name": "Single-Arm Cable Lateral Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Single-Arm Cable Lateral Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "machine_lateral_raise",
+    "name": "Machine Lateral Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Machine Lateral Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "cable_y_raise",
+    "name": "Cable Y-Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Y-Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "rear_delt_fly_dumbbell",
+    "name": "Bent-Over Rear Delt Fly",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Bent-Over Rear Delt Fly.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "reverse_pec_deck",
+    "name": "Reverse Pec Deck Fly",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Reverse Pec Deck Fly.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "barbell_upright_row",
+    "name": "Barbell Upright Row",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "biceps",
+      "upper_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Upright Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "dumbbell_upright_row",
+    "name": "Dumbbell Upright Row",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Upright Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "cable_upright_row",
+    "name": "Cable Upright Row",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "biceps"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Upright Row.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "plate_front_raise",
+    "name": "Weight Plate Front Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Weight Plate Front Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "dumbbell_front_raise",
+    "name": "Dumbbell Front Raise",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Front Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "landmine_press_single_arm",
+    "name": "Single-Arm Landmine Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps",
+      "chest"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Single-Arm Landmine Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "smith_shoulder_press",
+    "name": "Smith Machine Overhead Press",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "equipment": "smith_machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Smith Machine Overhead Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "lu_raise_dumbbell",
+    "name": "Lu Lateral Raises",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [
+      "upper_back"
+    ],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Lu Lateral Raises.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "barbell_bicep_curl",
+    "name": "Standing Barbell Bicep Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Barbell Bicep Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl",
+      "dumbbell_hammer_curl"
+    ]
+  },
+  {
+    "id": "ez_bar_bicep_curl",
+    "name": "EZ-Bar Bicep Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for EZ-Bar Bicep Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl",
+      "dumbbell_hammer_curl"
+    ]
+  },
+  {
+    "id": "preacher_curl_ez_bar",
+    "name": "EZ-Bar Preacher Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for EZ-Bar Preacher Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "dumbbell_incline_curl",
+      "dumbbell_hammer_curl"
+    ]
+  },
+  {
+    "id": "dumbbell_incline_curl",
+    "name": "Incline Dumbbell Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Incline Dumbbell Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_hammer_curl"
+    ]
+  },
+  {
+    "id": "dumbbell_hammer_curl",
+    "name": "Standing Dumbbell Hammer Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Dumbbell Hammer Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "cable_bicep_curl",
+    "name": "Standing Cable Bicep Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Cable Bicep Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "spider_curl_dumbbell",
+    "name": "Spider Curl (Incline Bench)",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Spider Curl (Incline Bench).",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "concentration_curl_dumbbell",
+    "name": "Seated Concentration Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Concentration Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "bayesian_cable_curl",
+    "name": "Bayesian Cable Curl (Behind Body)",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Bayesian Cable Curl (Behind Body).",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "zottman_curl_dumbbell",
+    "name": "Zottman Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Zottman Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "cable_rope_hammer_curl",
+    "name": "Cable Rope Hammer Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Rope Hammer Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "machine_preacher_curl",
+    "name": "Machine Preacher Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Machine Preacher Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "reverse_ez_bar_curl",
+    "name": "Reverse-Grip EZ-Bar Curl",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Reverse-Grip EZ-Bar Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "close_grip_bench_press",
+    "name": "Close-Grip Barbell Bench Press",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest",
+      "shoulders"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Close-Grip Barbell Bench Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown",
+      "straight_bar_pushdown"
+    ]
+  },
+  {
+    "id": "skull_crushers_ez_bar",
+    "name": "EZ-Bar Skull Crushers",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for EZ-Bar Skull Crushers.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "tricep_rope_pushdown",
+      "straight_bar_pushdown"
+    ]
+  },
+  {
+    "id": "tricep_rope_pushdown",
+    "name": "Tricep Rope Cable Pushdown",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Tricep Rope Cable Pushdown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "straight_bar_pushdown"
+    ]
+  },
+  {
+    "id": "straight_bar_pushdown",
+    "name": "Straight Bar Cable Pushdown",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Straight Bar Cable Pushdown.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "overhead_cable_tricep_ext",
+    "name": "Overhead Cable Tricep Extension",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Overhead Cable Tricep Extension.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "dumbbell_overhead_tricep_ext",
+    "name": "Seated Dumbbell Overhead Extension",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Dumbbell Overhead Extension.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "dip_machine_seated",
+    "name": "Seated Tricep Dip Machine",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Tricep Dip Machine.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "bench_dips_bodyweight",
+    "name": "Bench Dips",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Bench Dips.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "single_arm_cable_kickback",
+    "name": "Cable Tricep Kickback",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Tricep Kickback.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "tate_press_dumbbell",
+    "name": "Dumbbell Tate Press",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Tate Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "jm_press_barbell",
+    "name": "Barbell JM Press",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [
+      "chest"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell JM Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "barbell_back_squat",
+    "name": "Barbell Back Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Back Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree",
+      "hack_squat_machine"
+    ]
+  },
+  {
+    "id": "barbell_front_squat",
+    "name": "Barbell Front Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "abs"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Front Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree",
+      "hack_squat_machine"
+    ]
+  },
+  {
+    "id": "barbell_box_squat",
+    "name": "Barbell Box Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Box Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "leg_press_45_degree",
+      "hack_squat_machine"
+    ]
+  },
+  {
+    "id": "leg_press_45_degree",
+    "name": "45-Degree Leg Press",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for 45-Degree Leg Press.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "hack_squat_machine"
+    ]
+  },
+  {
+    "id": "hack_squat_machine",
+    "name": "Hack Squat Machine",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Hack Squat Machine.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "bulgarian_split_squat_db",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Bulgarian Split Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "walking_lunges_dumbbell",
+    "name": "Dumbbell Walking Lunges",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Walking Lunges.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "goblet_squat_dumbbell",
+    "name": "Dumbbell Goblet Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes",
+      "abs"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Goblet Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "leg_extension_machine",
+    "name": "Leg Extension Machine",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Leg Extension Machine.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "sissy_squat_bodyweight",
+    "name": "Sissy Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Sissy Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "step_ups_dumbbell",
+    "name": "Dumbbell Step-Ups",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Step-Ups.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "smith_machine_squat",
+    "name": "Smith Machine Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "smith_machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Smith Machine Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "pendulum_squat_machine",
+    "name": "Pendulum Squat",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "machine",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Pendulum Squat.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "romanian_deadlift_barbell",
+    "name": "Barbell Romanian Deadlift (RDL)",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "lower_back"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Romanian Deadlift (RDL).",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine",
+      "nordic_hamstring_curl"
+    ]
+  },
+  {
+    "id": "romanian_deadlift_dumbbell",
+    "name": "Dumbbell Romanian Deadlift",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Romanian Deadlift.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine",
+      "nordic_hamstring_curl"
+    ]
+  },
+  {
+    "id": "lying_leg_curl_machine",
+    "name": "Lying Leg Curl Machine",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "calves"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Lying Leg Curl Machine.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "seated_leg_curl_machine",
+      "nordic_hamstring_curl"
+    ]
+  },
+  {
+    "id": "seated_leg_curl_machine",
+    "name": "Seated Leg Curl Machine",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Leg Curl Machine.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "nordic_hamstring_curl"
+    ]
+  },
+  {
+    "id": "nordic_hamstring_curl",
+    "name": "Nordic Hamstring Curl",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Nordic Hamstring Curl.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "glute_ham_raise",
+    "name": "Glute-Ham Raise (GHR)",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "lower_back"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Glute-Ham Raise (GHR).",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "barbell_hip_thrust",
+    "name": "Barbell Hip Thrust",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "equipment": "barbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Barbell Hip Thrust.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "dumbbell_hip_thrust",
+    "name": "Dumbbell Hip Thrust",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "dumbbell",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Hip Thrust.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "cable_pull_through",
+    "name": "Cable Pull-Through",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes",
+      "lower_back"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Pull-Through.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "cable_glute_kickback",
+    "name": "Cable Glute Kickback",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Glute Kickback.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "hip_abduction_machine",
+    "name": "Machine Hip Abduction",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [
+      "glutes"
+    ],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Machine Hip Abduction.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "hip_adduction_machine",
+    "name": "Machine Hip Adduction",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Machine Hip Adduction.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "standing_calf_raise_machine",
+    "name": "Standing Machine Calf Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Standing Machine Calf Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise",
+      "single_leg_dumbbell_calf_raise"
+    ]
+  },
+  {
+    "id": "seated_calf_raise_machine",
+    "name": "Seated Machine Calf Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Seated Machine Calf Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise",
+      "single_leg_dumbbell_calf_raise"
+    ]
+  },
+  {
+    "id": "donkey_calf_raise",
+    "name": "Donkey Calf Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Donkey Calf Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "leg_press_calf_raise",
+      "single_leg_dumbbell_calf_raise"
+    ]
+  },
+  {
+    "id": "leg_press_calf_raise",
+    "name": "Leg Press Calf Extension",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Leg Press Calf Extension.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "single_leg_dumbbell_calf_raise"
+    ]
+  },
+  {
+    "id": "single_leg_dumbbell_calf_raise",
+    "name": "Single-Leg Dumbbell Calf Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Single-Leg Dumbbell Calf Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "smith_machine_calf_raise",
+    "name": "Smith Machine Calf Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "smith_machine",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Smith Machine Calf Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "tibialis_raise_bodyweight",
+    "name": "Wall Tibialis Raise",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Wall Tibialis Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "hanging_leg_raise",
+    "name": "Hanging Leg Raise",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Hanging Leg Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch",
+      "plank_bodyweight"
+    ]
+  },
+  {
+    "id": "hanging_knee_raise",
+    "name": "Hanging Knee Tuck",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Hanging Knee Tuck.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch",
+      "plank_bodyweight"
+    ]
+  },
+  {
+    "id": "ab_wheel_rollout",
+    "name": "Ab Wheel Rollout",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [
+      "lower_back"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Ab Wheel Rollout.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "cable_kneeling_crunch",
+      "plank_bodyweight"
+    ]
+  },
+  {
+    "id": "cable_kneeling_crunch",
+    "name": "Kneeling Cable Crunch",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Kneeling Cable Crunch.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "plank_bodyweight"
+    ]
+  },
+  {
+    "id": "plank_bodyweight",
+    "name": "Forearm Plank",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Forearm Plank.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "side_plank_bodyweight",
+    "name": "Side Plank",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Side Plank.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "decline_weighted_sit_up",
+    "name": "Decline Weighted Sit-Up",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Decline Weighted Sit-Up.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "russian_twists_dumbbell",
+    "name": "Dumbbell Russian Twists",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dumbbell Russian Twists.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "cable_woodchopper",
+    "name": "Cable Woodchopper",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "equipment": "cable",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Cable Woodchopper.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "dragon_flag_bodyweight",
+    "name": "Dragon Flag",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [
+      "lower_back"
+    ],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Dragon Flag.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "captains_chair_leg_raise",
+    "name": "Captain's Chair Knee/Leg Raise",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "strength",
+    "tier": "compound",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Captain's Chair Knee/Leg Raise.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "vacuum_stomach_pose",
+    "name": "Stomach Vacuum",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "bodyweight",
+    "category": "hypertrophy",
+    "tier": "isolation",
+    "instructions": [
+      "Position body safely with stable foot and core posture for Stomach Vacuum.",
+      "Initiate movement focusing strictly on the target musculature.",
+      "Perform full controlled eccentric stretch and forceful concentric contraction."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_cable_var_1",
+    "name": "Single-Arm Chest Press 1",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_2",
+    "name": "Incline Lat Row 2",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_3",
+    "name": "Deficit Shoulder Press 3",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_4",
+    "name": "Pause Arm Curl 4",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_5",
+    "name": "Tempo Tricep Extension 5",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_cable_var_6",
+    "name": "Single-Arm Squat Variation 6",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_7",
+    "name": "Incline Hinge Movement 7",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_barbell_var_8",
+    "name": "Deficit Calf Raise 8",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_9",
+    "name": "Pause Core Stabilizer 9",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_10",
+    "name": "Tempo Chest Press 10",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_cable_var_11",
+    "name": "Single-Arm Lat Row 11",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_12",
+    "name": "Incline Shoulder Press 12",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_13",
+    "name": "Deficit Arm Curl 13",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_14",
+    "name": "Pause Tricep Extension 14",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_dumbbell_var_15",
+    "name": "Tempo Squat Variation 15",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_cable_var_16",
+    "name": "Single-Arm Hinge Movement 16",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_17",
+    "name": "Incline Calf Raise 17",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_18",
+    "name": "Deficit Core Stabilizer 18",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_19",
+    "name": "Pause Chest Press 19",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_20",
+    "name": "Tempo Lat Row 20",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_cable_var_21",
+    "name": "Single-Arm Shoulder Press 21",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_dumbbell_var_22",
+    "name": "Incline Arm Curl 22",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_23",
+    "name": "Deficit Tricep Extension 23",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_24",
+    "name": "Pause Squat Variation 24",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_25",
+    "name": "Tempo Hinge Movement 25",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_cable_var_26",
+    "name": "Single-Arm Calf Raise 26",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_dumbbell_var_27",
+    "name": "Incline Core Stabilizer 27",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_28",
+    "name": "Deficit Chest Press 28",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_29",
+    "name": "Pause Lat Row 29",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_30",
+    "name": "Tempo Shoulder Press 30",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_cable_var_31",
+    "name": "Single-Arm Arm Curl 31",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_32",
+    "name": "Incline Tricep Extension 32",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_33",
+    "name": "Deficit Squat Variation 33",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_barbell_var_34",
+    "name": "Pause Hinge Movement 34",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_35",
+    "name": "Tempo Calf Raise 35",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_cable_var_36",
+    "name": "Single-Arm Core Stabilizer 36",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_37",
+    "name": "Incline Chest Press 37",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_38",
+    "name": "Deficit Lat Row 38",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_39",
+    "name": "Pause Shoulder Press 39",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_dumbbell_var_40",
+    "name": "Tempo Arm Curl 40",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_cable_var_41",
+    "name": "Single-Arm Tricep Extension 41",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_dumbbell_var_42",
+    "name": "Incline Squat Variation 42",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_barbell_var_43",
+    "name": "Deficit Hinge Movement 43",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_barbell_var_44",
+    "name": "Pause Calf Raise 44",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_dumbbell_var_45",
+    "name": "Tempo Core Stabilizer 45",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_cable_var_46",
+    "name": "Single-Arm Chest Press 46",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_47",
+    "name": "Incline Lat Row 47",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_48",
+    "name": "Deficit Shoulder Press 48",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_49",
+    "name": "Pause Arm Curl 49",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_50",
+    "name": "Tempo Tricep Extension 50",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_cable_var_51",
+    "name": "Single-Arm Squat Variation 51",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_52",
+    "name": "Incline Hinge Movement 52",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_barbell_var_53",
+    "name": "Deficit Calf Raise 53",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_54",
+    "name": "Pause Core Stabilizer 54",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_55",
+    "name": "Tempo Chest Press 55",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_cable_var_56",
+    "name": "Single-Arm Lat Row 56",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_57",
+    "name": "Incline Shoulder Press 57",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_58",
+    "name": "Deficit Arm Curl 58",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_59",
+    "name": "Pause Tricep Extension 59",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_dumbbell_var_60",
+    "name": "Tempo Squat Variation 60",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_cable_var_61",
+    "name": "Single-Arm Hinge Movement 61",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_62",
+    "name": "Incline Calf Raise 62",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_63",
+    "name": "Deficit Core Stabilizer 63",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_64",
+    "name": "Pause Chest Press 64",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_65",
+    "name": "Tempo Lat Row 65",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_cable_var_66",
+    "name": "Single-Arm Shoulder Press 66",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_dumbbell_var_67",
+    "name": "Incline Arm Curl 67",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_68",
+    "name": "Deficit Tricep Extension 68",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_69",
+    "name": "Pause Squat Variation 69",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_70",
+    "name": "Tempo Hinge Movement 70",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_cable_var_71",
+    "name": "Single-Arm Calf Raise 71",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_dumbbell_var_72",
+    "name": "Incline Core Stabilizer 72",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_73",
+    "name": "Deficit Chest Press 73",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_74",
+    "name": "Pause Lat Row 74",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_75",
+    "name": "Tempo Shoulder Press 75",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_cable_var_76",
+    "name": "Single-Arm Arm Curl 76",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_77",
+    "name": "Incline Tricep Extension 77",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_78",
+    "name": "Deficit Squat Variation 78",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_barbell_var_79",
+    "name": "Pause Hinge Movement 79",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_80",
+    "name": "Tempo Calf Raise 80",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_cable_var_81",
+    "name": "Single-Arm Core Stabilizer 81",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_82",
+    "name": "Incline Chest Press 82",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_83",
+    "name": "Deficit Lat Row 83",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_84",
+    "name": "Pause Shoulder Press 84",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_dumbbell_var_85",
+    "name": "Tempo Arm Curl 85",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_cable_var_86",
+    "name": "Single-Arm Tricep Extension 86",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_dumbbell_var_87",
+    "name": "Incline Squat Variation 87",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_barbell_var_88",
+    "name": "Deficit Hinge Movement 88",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_barbell_var_89",
+    "name": "Pause Calf Raise 89",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_dumbbell_var_90",
+    "name": "Tempo Core Stabilizer 90",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_cable_var_91",
+    "name": "Single-Arm Chest Press 91",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_92",
+    "name": "Incline Lat Row 92",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_93",
+    "name": "Deficit Shoulder Press 93",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_94",
+    "name": "Pause Arm Curl 94",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_95",
+    "name": "Tempo Tricep Extension 95",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_cable_var_96",
+    "name": "Single-Arm Squat Variation 96",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_97",
+    "name": "Incline Hinge Movement 97",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_barbell_var_98",
+    "name": "Deficit Calf Raise 98",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_99",
+    "name": "Pause Core Stabilizer 99",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_100",
+    "name": "Tempo Chest Press 100",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_cable_var_101",
+    "name": "Single-Arm Lat Row 101",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_102",
+    "name": "Incline Shoulder Press 102",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_barbell_var_103",
+    "name": "Deficit Arm Curl 103",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_104",
+    "name": "Pause Tricep Extension 104",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_dumbbell_var_105",
+    "name": "Tempo Squat Variation 105",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_cable_var_106",
+    "name": "Single-Arm Hinge Movement 106",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_107",
+    "name": "Incline Calf Raise 107",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_barbell_var_108",
+    "name": "Deficit Core Stabilizer 108",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_109",
+    "name": "Pause Chest Press 109",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_dumbbell_var_110",
+    "name": "Tempo Lat Row 110",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_cable_var_111",
+    "name": "Single-Arm Shoulder Press 111",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_dumbbell_var_112",
+    "name": "Incline Arm Curl 112",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_barbell_var_113",
+    "name": "Deficit Tricep Extension 113",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_114",
+    "name": "Pause Squat Variation 114",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_dumbbell_var_115",
+    "name": "Tempo Hinge Movement 115",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_cable_var_116",
+    "name": "Single-Arm Calf Raise 116",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_dumbbell_var_117",
+    "name": "Incline Core Stabilizer 117",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_barbell_var_118",
+    "name": "Deficit Chest Press 118",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_119",
+    "name": "Pause Lat Row 119",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_dumbbell_var_120",
+    "name": "Tempo Shoulder Press 120",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  },
+  {
+    "id": "biceps_cable_var_121",
+    "name": "Single-Arm Arm Curl 121",
+    "bodyPart": "arms",
+    "targetMuscle": "biceps",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Arm Curl.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bicep_curl",
+      "ez_bar_bicep_curl",
+      "preacher_curl_ez_bar",
+      "dumbbell_incline_curl"
+    ]
+  },
+  {
+    "id": "triceps_dumbbell_var_122",
+    "name": "Incline Tricep Extension 122",
+    "bodyPart": "arms",
+    "targetMuscle": "triceps",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Tricep Extension.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "diamond_push_ups",
+      "close_grip_bench_press",
+      "skull_crushers_ez_bar",
+      "tricep_rope_pushdown"
+    ]
+  },
+  {
+    "id": "quadriceps_barbell_var_123",
+    "name": "Deficit Squat Variation 123",
+    "bodyPart": "legs",
+    "targetMuscle": "quadriceps",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Squat Variation.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_back_squat",
+      "barbell_front_squat",
+      "barbell_box_squat",
+      "leg_press_45_degree"
+    ]
+  },
+  {
+    "id": "hamstrings_barbell_var_124",
+    "name": "Pause Hinge Movement 124",
+    "bodyPart": "legs",
+    "targetMuscle": "hamstrings",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Hinge Movement.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "romanian_deadlift_barbell",
+      "romanian_deadlift_dumbbell",
+      "lying_leg_curl_machine",
+      "seated_leg_curl_machine"
+    ]
+  },
+  {
+    "id": "calves_dumbbell_var_125",
+    "name": "Tempo Calf Raise 125",
+    "bodyPart": "legs",
+    "targetMuscle": "calves",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Tempo Calf Raise.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "standing_calf_raise_machine",
+      "seated_calf_raise_machine",
+      "donkey_calf_raise",
+      "leg_press_calf_raise"
+    ]
+  },
+  {
+    "id": "abs_cable_var_126",
+    "name": "Single-Arm Core Stabilizer 126",
+    "bodyPart": "core",
+    "targetMuscle": "abs",
+    "secondaryMuscles": [],
+    "equipment": "cable",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Single-Arm Core Stabilizer.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "hanging_leg_raise",
+      "hanging_knee_raise",
+      "ab_wheel_rollout",
+      "cable_kneeling_crunch"
+    ]
+  },
+  {
+    "id": "chest_dumbbell_var_127",
+    "name": "Incline Chest Press 127",
+    "bodyPart": "chest",
+    "targetMuscle": "chest",
+    "secondaryMuscles": [],
+    "equipment": "dumbbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Incline Chest Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_bench_press",
+      "incline_barbell_bench_press",
+      "decline_barbell_bench_press",
+      "dumbbell_bench_press"
+    ]
+  },
+  {
+    "id": "lats_barbell_var_128",
+    "name": "Deficit Lat Row 128",
+    "bodyPart": "upper_back",
+    "targetMuscle": "lats",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Deficit Lat Row.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_deadlift",
+      "sumo_deadlift",
+      "barbell_bent_over_row",
+      "pendlay_row"
+    ]
+  },
+  {
+    "id": "shoulders_barbell_var_129",
+    "name": "Pause Shoulder Press 129",
+    "bodyPart": "shoulders",
+    "targetMuscle": "shoulders",
+    "secondaryMuscles": [],
+    "equipment": "barbell",
+    "category": "hypertrophy",
+    "tier": "compound",
+    "instructions": [
+      "Set up for Pause Shoulder Press.",
+      "Maintain active core bracing through the full range of motion.",
+      "Control the eccentric phase for 3 seconds."
+    ],
+    "substitutes": [
+      "barbell_overhead_press",
+      "seated_barbell_press",
+      "seated_dumbbell_shoulder_press",
+      "arnold_press_dumbbell"
+    ]
+  }
+]
